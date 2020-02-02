@@ -10,7 +10,7 @@ Install
 -------
 
 ```bash
-pip install .
+$ pip install .
 ```
 
 
@@ -33,7 +33,7 @@ with SOBFile("myfile", "a") as sob:
     # implements a binary search.
     sob.sort()
     sob.index(b"efgh")
-
+```
 
 
 SOBFile
