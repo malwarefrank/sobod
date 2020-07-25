@@ -18,7 +18,7 @@ Example
 -------
 
 ```python
-from sosod import SOBFile, SOBFlags
+from sobod import SOBFile, SOBFlags
 
 with SOBFile("myfile", "a") as sob:
     sob.itemsize = 4
